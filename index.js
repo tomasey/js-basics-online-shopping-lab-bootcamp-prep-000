@@ -26,7 +26,7 @@ function viewCart() {
         product = product + ", "
       }
       
-      if(i == cart.length - 1) {
+      if(i == cart.length - 2) {
         product = product + "and "
       }
     }
