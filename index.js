@@ -27,7 +27,7 @@ function viewCart() {
       }
       
       if(i == cart.length - 1) {
-        product = "and " + product
+        product = product + "and "
       }
     }
     return ("In your cart, you have " + product )
