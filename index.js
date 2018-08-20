@@ -18,7 +18,7 @@ function addToCart(item) {
 
 function viewCart() {
   var product = "";
-  if (0 < cart.length) {
+  if (cart.length > 0) {
     for (var i = 0; i < cart.length; i++) {
       product = product + cart[i] + " at $" + cart.itemPrice;
       
