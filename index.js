@@ -21,9 +21,11 @@ function viewCart() {
   if (0 < cart.length) {
     for (var i = 0; i < cart.length; i++) {
       product = product + cart[i] + " at $" + cart.itemPrice;
+      
       if(i < cart.length - 1) {
-        produuct = product + ", "
+        product = product + ", "
       }
+      
       if(i == cart.length - 1) {
         product = "and " + product
       }
