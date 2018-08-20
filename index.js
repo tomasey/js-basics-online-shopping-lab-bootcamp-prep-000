@@ -20,7 +20,7 @@ function viewCart() {
   var product = "";
   if (cart.length > 0) {
     for (var i = 0; i < cart.length; i++) {
-      product = product + cart[i].itemName + " at $" + cart.itemPrice;
+      product = product + cart[i].itemName + " at $" + cart[i].itemPrice;
       
       if(i < cart.length - 1) {
         product = product + ", "
